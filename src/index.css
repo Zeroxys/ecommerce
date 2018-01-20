@@ -1,5 +1,21 @@
+@font-face{
+  font-family: SFL;
+  src: url('./fonts/SanFranciscoDisplay-Light.otf')
+}
+
+@font-face{
+  font-family: SFB;
+  src: url('./fonts/SanFranciscoDisplay-Bold.otf')
+}
+
+@font-face{
+  font-family: SFM;
+  src: url('./fonts/SanFranciscoDisplay-Medium.otf')
+}
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: SFL;
 }
+
