@@ -3,19 +3,25 @@
   justify-content: flex-start;
   align-items: center;
   flex-direction:column;
-  height: 50vh;
+  height: 64vh;
   background-color: #474747;
 }
 
 .Title {
   margin-top:20px;
+  color:#f7f7f7;
 }
 
 .Contact{
+  color:#f7f7f7;
+  margin-top:10px;
   height: 100vh;
-  width: 80%;
-  border:1px solid red;
+  width: 90%;
   display: flex;
   justify-content: space-around;
   align-items: flex-start;
+}
+
+.Copyrigth{
+  color: #f7f7f7;
 }

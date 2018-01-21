@@ -1,5 +1,6 @@
 import React from 'react'
 
+import Form from './Form/Form'
 import Classes from './Footer.css'
 
 const Footer = () => {
@@ -20,16 +21,10 @@ const Footer = () => {
         </section>
         <section>
           <h3>CONTACTANOS</h3>
-          <form>
-            <input type="text" placeholder="Nombre"/>
-            <input type="text" placeholder="Teléfono"/>
-            <input type="text" placeholder="Mensaje"/>
-            <input type="submit" name="Enviar"/>
-          </form>
+          <Form classes={Classes}/>
         </section>
       </div>
-
-      <p>asdsda</p>
+      <p className={Classes.Copyrigth}>Condiciones de uso Aviso de privacidad© 2017, Auto partsmx,  o afiliados. Todos los derechos reservados.</p>
     </footer>
   )
 }
