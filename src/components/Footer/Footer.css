@@ -1,0 +1,21 @@
+.Footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction:column;
+  height: 50vh;
+  background-color: #474747;
+}
+
+.Title {
+  margin-top:20px;
+}
+
+.Contact{
+  height: 100vh;
+  width: 80%;
+  border:1px solid red;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}

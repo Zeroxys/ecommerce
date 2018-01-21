@@ -5,7 +5,7 @@ import Classes from './Layout.css'
 
 const layout = (props) => 
   <Aux>
-    <div>Navbar</div>
+    <div className={Classes.Session}>Session</div>
     <main className={Classes.Layout}>
       {props.children}
     </main>
