@@ -10,7 +10,7 @@ const Form = (props) => {
       <input type="text"  className={Classes.TextComments} placeholder="Mensaje"/>
       <input type="submit" className={Classes.Submit} name="Enviar"/>
     </form>
-  )
+  ) 
 }
 
 export default Form

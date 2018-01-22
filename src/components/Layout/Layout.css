@@ -1,10 +1,27 @@
 .Session {
-  background-color: #f4b102;
-  height: 5vh;
+  display:flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #F4B101;
+  height: 7vh;
+}
+
+.Nav {
+  font-family: SFB;
+  width: 25%;
+  display:flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  list-style: none;
+}
+
+.Links {
+  text-decoration: none;
+  color: #171717;
 }
 
 .Layout {
-  border:1px solid red;
   height: 95vh;
   background-color: #f7f7f7;
 }

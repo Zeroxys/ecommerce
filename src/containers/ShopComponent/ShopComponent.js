@@ -1,5 +1,7 @@
 import React, {Component} from 'react'
+
 import Aux from '../../hoc/Aux'
+import Navbar from './Navbar/Navbar'
 import Footer from '../../components/Footer/Footer'
 import ShopSection from '../../components/ShopSection/ShopSection'
 
@@ -9,7 +11,8 @@ class ShopComponent extends Component {
   render () {
     return (
       <Aux>
-        <div className={Classes.Navbar}>Navbar section</div>       
+        <Navbar/>
+        <div className={Classes.Banner}></div>    
         <ShopSection/>
         <Footer/>
       </Aux>
